@@ -5,9 +5,9 @@ package search
  * n개중 2개를 순서있게 뽑는 방법
  */
 fun main() {
-    var n = 4
+    var n = 3
     var r = 2
-    var arr = arrayOf("A", "B", "C", "D")
+    var arr = arrayOf("A", "B", "C")
     var visited = Array(arr.size) { false }
     var output = Array(r) { "" }
     permutation(arr, output, visited, 0, n, r)
