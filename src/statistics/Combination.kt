@@ -1,4 +1,4 @@
-package search
+package statistics
 
 /**
  * 조합: Combination

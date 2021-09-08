@@ -1,4 +1,4 @@
-package search
+package statistics
 
 /**
  * 탐색 알고리즘 (선형탐색)

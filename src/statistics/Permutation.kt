@@ -1,4 +1,4 @@
-package search
+package statistics
 
 /**
  * 조합:  Permutation
@@ -6,7 +6,7 @@ package search
  */
 fun main() {
     var n = 3
-    var r = 2
+    var r = 3
     var arr = arrayOf("A", "B", "C")
     var visited = Array(arr.size) { false }
     var output = Array(r) { "" }
