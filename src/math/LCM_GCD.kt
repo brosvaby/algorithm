@@ -7,9 +7,7 @@ fun main() {
 
 /**
  * largest common multiple
- * ㅇㅇㅇ최소공배수
- *
- *
+ * 최소공배수
  */
 fun LCM() {
     var n = 20
@@ -28,7 +26,7 @@ fun LCM() {
 
 /**
  * greatest common divisor
- * 최소공배수
+ * 최대공약수
  */
 fun GCD() {
     var n = 9

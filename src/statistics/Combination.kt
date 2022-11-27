@@ -23,7 +23,11 @@ fun combination1(arr: Array<String>, n: Int, r: Int) {
 
     fun combination(visited:Array<Boolean>, start: Int, n: Int, r: Int) {
         if(r == 0) {
-            answer.add(makeResult(arr, visited))
+            //answer.add(makeResult(arr, visited))
+            val result = visited.mapIndexed { index, b -> Pair(index, b) }.filter { it ->
+                it.second
+            }
+            println(result)
             return
         }
         for(i:Int in start until n) {
@@ -33,7 +37,7 @@ fun combination1(arr: Array<String>, n: Int, r: Int) {
         }
     }
     combination(Array(n) {false}, 0, n, r)
-    answer.forEach { println(it) }
+    //answer.forEach { println(it) }
 }
 
 /**
